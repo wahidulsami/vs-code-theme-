@@ -78,19 +78,19 @@
     "menu.separatorBackground": "#2A2A3F",
 
     /* Search / Find widget */
-    "editorWidget.background": "#12121A",
+    "editorWidget.background": "#0b0b0f",
     "editorWidget.foreground": "#E4E4E7",
-    "editorWidget.border": "#FF9E64",
-    "editorWidget.resizeBorder": "#FF9E64",
+    "editorWidget.border": "#181717",
+    "editorWidget.resizeBorder": "#272625",
 
     /* Input fields / search bar */
     "input.background": "#12121A",
     "input.foreground": "#E4E4E7",
-    "input.border": "#FF9E64",
+    "input.border": "#131110",
     "inputOption.activeBackground": "#1F2937",
 
     /* Sidebar, ActivityBar, Tabs, StatusBar */
-    "sideBar.background": "#0D0D12",
+    "sideBar.background": "#0b0b0f",
     "sideBar.foreground": "#A0A8B7",
     "sideBarSectionHeader.background": "#0D0D12",
     "activityBar.background": "#08080C",
