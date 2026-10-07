@@ -1,9 +1,9 @@
-# vs-code-theme- 
-
-
-
 {
   "workbench.iconTheme": "material-icon-theme",
+  
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.semanticHighlighting.enabled": true,
+
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
   "liveServer.settings.port": 0,
@@ -17,19 +17,19 @@
   "git.suggestSmartCommit": false,
   "security.workspace.trust.untrustedFiles": "open",
 
-  /* ---------- CURSOR DESIGN ---------- */
+
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorSurroundingLines": 8,
   "editor.cursorWidth": 2,
 
-  /* ---------- FONT & CODE LOOK ---------- */
+
   "editor.fontFamily": "JetBrains Mono, Fira Code, Consolas",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.lineHeight": 22,
 
-  /* ---------- EDITOR CLEAN DESIGN ---------- */
+
   "editor.minimap.enabled": true,
   "editor.minimap.renderCharacters": false,
   "editor.scrollbar.vertical": "hidden",
@@ -38,11 +38,10 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.smoothScrolling": true,
 
-  /* ---------- DEEP BLUR EFFECT ---------- */
+
   "window.titleBarStyle": "custom",
   "window.systemColorTheme": "dark",
   "window.autoDetectColorScheme": false,
-  "workbench.sideBar.location": "left",
   "apc.electron": {
     "frame": false,
     "transparent": true,
@@ -57,7 +56,7 @@
     ".activitybar": "backdrop-filter: blur(25px) !important; background: rgba(16, 16, 30, 0.5) !important;"
   },
 
-  /* ---------- COLOR CUSTOM (DEEP DARK + BLUR + RIGHT-CLICK + SEARCH) ---------- */
+
   "workbench.colorCustomizations": {
     "editor.background": "#0A0A0F",
     "editor.foreground": "#D4D4D4",
@@ -70,26 +69,26 @@
     "editorBracketMatch.background": "#1E2030",
     "editorBracketMatch.border": "#FF9E64",
 
-    /* Right-click menu */
+ 
     "menu.background": "#12121A",
     "menu.foreground": "#E4E4E7",
     "menu.selectionBackground": "#1F2937",
     "menu.selectionForeground": "#FF9E64",
     "menu.separatorBackground": "#2A2A3F",
 
-    /* Search / Find widget */
+    
     "editorWidget.background": "#0b0b0f",
     "editorWidget.foreground": "#E4E4E7",
     "editorWidget.border": "#181717",
     "editorWidget.resizeBorder": "#272625",
 
-    /* Input fields / search bar */
+   
     "input.background": "#12121A",
     "input.foreground": "#E4E4E7",
     "input.border": "#131110",
     "inputOption.activeBackground": "#1F2937",
 
-    /* Sidebar, ActivityBar, Tabs, StatusBar */
+
     "sideBar.background": "#0b0b0f",
     "sideBar.foreground": "#A0A8B7",
     "sideBarSectionHeader.background": "#0D0D12",
@@ -121,8 +120,25 @@
     "list.hoverBackground": "#1A1A24",
     "list.activeSelectionBackground": "#1F2937",
     "list.inactiveSelectionBackground": "#16161E"
+    
   },
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "files.autoSave": "afterDelay",
+"files.autoSaveDelay": 1000,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
 
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestions": "matchingDocuments",
   /* ---------- FORMATTERS ---------- */
   "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
   "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -131,7 +147,6 @@
 
   /* ---------- UI ---------- */
   "terminal.integrated.gpuAcceleration": "auto",
-  "breadcrumbs.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.editor.tabSizing": "shrink",
   "workbench.editorAssociations": {
@@ -140,12 +155,36 @@
   },
   "chat.instructionsFilesLocations": {
     ".github/instructions": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-collections-post-response.instructions.md": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-collections-pre-request.instructions.md": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-folder-post-response.instructions.md": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-folder-pre-request.instructions.md": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-http-request-post-response.instructions.md": true,
-    "C:\\Users\\user\\AppData\\Local\\Temp\\postman-http-request-pre-request.instructions.md": true
+    ".claude/rules": true,
+    "~/.copilot/instructions": true,
+    "~/.claude/rules": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true
   },
-  "workbench.colorTheme": "Tokyo Night"
+  "postman.mcp.notifications.postmanMCP": false,
+  "redhat.telemetry.enabled": true,
+  "files.autoSave": "afterDelay",
+  "mcpServers": {},
+  "chat.sessionSync.enabled": true,
+  "claudeCode.preferredLocation": "panel",
+  "yaml.schemas": {
+    "file:///home/sami/.vscode/extensions/continue.continue-2.0.0-linux-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ],
+    "file:///home/sami/.vscode/extensions/continue.continue-2.1.0-linux-x64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "workbench.activityBar.compact": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
